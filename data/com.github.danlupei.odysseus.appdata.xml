@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2018 Adrian Borucki <gentoolx@gmail.com> -->
+<component type="desktop">
+  <id>com.github.danlupei.odysseus.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <name>Odysseus</name>
+  <summary>Block distracting websites</summary>
+  <description>
+    <p>
+    This app provides an easy way to schedule times when access to certain websites will be blocked.
+    Supported modes include whitelists and blacklists. You can set up one-time or repeating blocks.
+    </p>
+  </description>
+  <custom>
+    <value key="x-appcenter-color-primary">#000000</value>
+    <!-- <value key="x-appcenter-color-primary-text">rgb(255, 255, 255)</value> -->
+    <value key="x-appcenter-suggested-price">3</value>
+  </custom>
+</component>

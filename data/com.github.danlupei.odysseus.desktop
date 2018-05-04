@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Odysseus
+GenericName=Odysseus App
+Comment=Block access to distracting websites
+Categories=Utility;Internet;
+Exec=com.github.danlupei.odysseus
+Icon=application-default-icon
+Terminal=false
+Type=Application
+X-GNOME-Gettext-Domain=odysseus
+Keywords=Internet;Block;Distracting;Procrastination
