@@ -28,14 +28,13 @@ ensure_vala_version(0.16 MINIMUM)
 
 include(ValaPrecompile)
 vala_precompile(VALA_C ${EXEC_NAME}
-    src/odysseus.vala)
-
-PACKAGES (
+    src/odysseus.vala
+    PACKAGES
     gtk+-3.0
 )
 
 add_executable(${EXEC_NAME} ${VALA_C})
 
 install (TARGETS ${EXEC_NAME} RUNTIME DESTINATION bin)
-install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/com.github.danlupei.odysseus.desktop ${DATADIR}/applications/)
-install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/com.github.danlupei.odysseus.appdata.xml ${DATADIR}/metainfo)
+install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/com.github.danlupei.odysseus.desktop DESTINATION ${DATADIR}/applications/)
+install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/com.github.danlupei.odysseus.appdata.xml DESTINATION ${DATADIR}/metainfo)
