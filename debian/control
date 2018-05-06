@@ -1,0 +1,15 @@
+Source: com.github.danlupei.odysseus
+Section: x11
+Priority: extra
+Maintainer: Adrian Borucki <gentoolx@gmail.com>
+Build-Depends: cmake (>= 2.8),
+               cmake-elementary,
+               debhelper (>= 9),
+               valac-0.26 | valac (>= 0.26)
+Standards-Version: 3.9.3
+
+Package: com.github.danlupei.odysseus
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Block distracting websites
+ This app allows you to set schedules for blocking websites that distract you.
