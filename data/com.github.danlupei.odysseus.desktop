@@ -9,3 +9,4 @@ Terminal=false
 Type=Application
 X-GNOME-Gettext-Domain=odysseus
 Keywords=Internet;Block;Distracting;Procrastination
+X-GNOME-UsesNotifications=true
