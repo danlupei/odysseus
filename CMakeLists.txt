@@ -14,6 +14,10 @@ set (RELEASE_NAME Chomperus)
 set (VERSION 0.1)
 set (VERSION_INFO Bare-bones setup)
 
+set (GETTEXT_PACKAGE "${CMAKE_PROJECT_NAME}")
+add_definitions (-DGETTEXT_PACKAGE=\"${GETTEXT_PACKAGE}\")
+add_subdirectory (po)
+
 find_package(PkgConfig)
 
 pkg_check_modules(DEPS REQUIRED gtk+-3.0)
