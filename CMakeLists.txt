@@ -11,7 +11,7 @@ set (PKGDATADIR ${DATADIR}/com.github.danlupei.odysseus)
 
 set (EXEC_NAME com.github.danlupei.odysseus)
 set (RELEASE_NAME Chomperus)
-set (VERSION 0.1)
+set (VERSION 0.1.0)
 set (VERSION_INFO Bare-bones setup)
 
 set (GETTEXT_PACKAGE "${CMAKE_PROJECT_NAME}")
